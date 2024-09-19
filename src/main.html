@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Flooding</title>
+        <script src = "data.js" defer></script>
+        <script src = "main.js" defer></script>
+        <link rel = "stylesheet" href = "main.css">
+    </head>
+
+    <body>
+        <h1>Flooding</h1>
+
+
+
+        <button type = "button" id = "show-btn">Flood</button>
+        <button type = "button" id = "reset-btn">Reset</button>
+        
+
+        <p>
+            <span>Water Level: </span>
+            <input type = "number" id = "water-level"/>
+        </p>
+        
+
+
+
+        <p>
+            <span>Terrain: </span>
+            <select name = "terrain" id = "terrain-list">
+                <option></option>
+                <option value = "test1">test1</option>
+                <option value = "beach">beach</option>
+                <option value = "island">island</option>
+                <option value = "big-island">Big island</option>
+            </select>
+            
+        </p>
+        
+
+        <p>
+            <div class = "grid" id = "grid"></div>
+        </p>
+        
+    </body>
+</html>
